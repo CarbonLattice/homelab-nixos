@@ -1,18 +1,17 @@
 {
-  "homelab-1": {
-    "mac_address": "00:23:24:d1:f5:69",
-    "ip": "192.168.1.110"
+  "metal0": {
+    "mac_address": "e4:54:e8:6e:de:08",
+    "ip": "192.168.1.11",
+    "disk": "/dev/nvme0n1"
   },
-  "homelab-2": {
-    "mac_address": "00:23:24:d1:f3:f0",
-    "ip": "192.168.1.111"
+  "metal1": {
+    "mac_address": "e4:54:e8:6f:2c:cd",
+    "ip": "192.168.1.12",
+    "disk": "/dev/nvme0n1"
   },
-  "homelab-3": {
-    "mac_address": "00:23:24:e7:04:60",
-    "ip": "192.168.1.112"
-  },
-  "homelab-4": {
-    "mac_address": "00:23:24:d1:f4:d6",
-    "ip": "192.168.1.113"
+  "metal2": {
+    "mac_address": "00:23:24:cb:b5:69",
+    "ip": "192.168.1.13",
+    "disk": "/dev/nvme0n1"
   }
 }

@@ -8,5 +8,5 @@ dependency "cluster" {
 
 inputs = {
   kubeconfig = dependency.cluster.outputs.kubeconfig_path
-  domain     = "khuedoan.com"
+  domain     = "carbon-lattice.com"
 }

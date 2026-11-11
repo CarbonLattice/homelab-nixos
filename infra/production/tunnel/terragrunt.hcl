@@ -7,6 +7,6 @@ dependency "dns" {
 }
 
 inputs = {
-  domain  = "khuedoan.com"
+  domain  = "carbon-lattice.com"
   zone_id = dependency.dns.outputs.zone_id
 }
