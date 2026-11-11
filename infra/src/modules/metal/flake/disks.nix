@@ -3,7 +3,9 @@
 {
   disko.devices.disk.main = {
     type = "disk";
-    device = hostConfig.disk or "/dev/sda";
+    # Nixie rejects unknown keys in hosts.json, so a per-host `disk` cannot be set there right now.
+    # Every node in this lab has a single NVMe drive, so NVMe is the default instead of /dev/sda.
+    device = hostConfig.disk or "/dev/nvme0n1";
     content = {
       type = "gpt";
       partitions = {

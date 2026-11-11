@@ -1,17 +1,14 @@
 {
   "metal0": {
     "mac_address": "e4:54:e8:6e:de:08",
-    "ip": "192.168.1.3",
-    "disk": "/dev/nvme0n1"
+    "ip": "192.168.1.3"
   },
   "metal1": {
     "mac_address": "e4:54:e8:6f:2c:cd",
-    "ip": "192.168.1.4",
-    "disk": "/dev/nvme0n1"
+    "ip": "192.168.1.4"
   },
   "metal2": {
     "mac_address": "00:23:24:cb:b5:69",
-    "ip": "192.168.1.5",
-    "disk": "/dev/nvme0n1"
+    "ip": "192.168.1.5"
   }
 }
