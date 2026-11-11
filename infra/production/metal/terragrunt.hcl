@@ -11,6 +11,8 @@ terraform {
       "--installer", "path:.#nixosConfigurations.installer",
       "--flake", "path:.",
       "--hosts", "hosts.json",
+      # Nixie auto-detects the first interface address; pin it to the controller's LAN address (empty = auto).
+      "--address", get_env("NIXIE_ADDRESS", ""),
     ]
   }
 }
