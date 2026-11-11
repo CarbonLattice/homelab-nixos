@@ -117,7 +117,7 @@ configMaps:
                             url: https://homelab.khuedoan.com
                             icon: di:google-docs.svg
                           - title: Public homelab repository
-                            url: https://github.com/khuedoan/homelab
+                            url: https://github.com/CarbonLattice/homelab-nixos
                             icon: di:github.svg
                           - title: Cloudflare
                             url: https://dash.cloudflare.com
@@ -153,7 +153,6 @@ configMaps:
                       - opencloud-eu/opencloud
                       - asciimoo/hister
         branding:
-          custom-footer: "<p>Enjoy this homelab? <a href=\"https://github.com/khuedoan/homelab\"\
-            \ target=\"_blank\" rel=\"noopener noreferrer\">Star it on GitHub \u2197</a></p>\n"
+          custom-footer: "<p>Based on <a href=\"https://github.com/khuedoan/homelab\" target=\"_blank\" rel=\"noopener noreferrer\">khuedoan/homelab</a></p>\n"
         server:
           proxied: true
