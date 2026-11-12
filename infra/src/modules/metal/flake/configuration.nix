@@ -23,6 +23,10 @@
     options = "--delete-older-than 30d";
   };
 
+  # The nodes are old PCs with 2016-2019 BIOS firmware: load current CPU microcode at boot.
+  hardware.enableRedistributableFirmware = true;
+  hardware.cpu.intel.updateMicrocode = true;
+
   services.openssh.enable = true;
   security.sudo.wheelNeedsPassword = false;
 
